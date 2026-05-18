@@ -1,14 +1,14 @@
 <script lang="ts">
 	import './layout.css';
-	import favicon from '$lib/assets/favicon.svg';
+	import logo from '$lib/assets/logo.png';
 	let { children } = $props();
 </script>
 
 <svelte:head>
-	<link rel="icon" href={favicon} />
+	<link rel="icon" href={logo} />
 	<title>Notepad++</title>
 </svelte:head>
 
-<div class="h-full w-full space-y-4 px-12 py-8">
+<div class="h-svh w-full">
 	{@render children()}
 </div>
