@@ -11,7 +11,7 @@
 				<enhanced:img
 					src="../../lib/assets/logo.png"
 					alt="Application Logo"
-					class="h-12 w-12 rounded-full border border-gray-300 shadow-xs"
+					class="h-12 w-12 rounded-full border border-gray-300 p-1 shadow-xs"
 				/>
 				<h1 class="text-4xl">Sign in</h1>
 			</div>
@@ -32,7 +32,7 @@
 				<input
 					name="password"
 					id="password"
-					type="email"
+					type="password"
 					class="mt-1 w-full rounded border border-gray-300 px-3 py-2"
 				/>
 			</div>
@@ -44,7 +44,7 @@
 					title="sign-in"
 					class="cursor-pointer rounded-4xl bg-blue-600 px-4 py-1 text-white hover:opacity-75"
 				>
-					Next
+					Sign in
 				</button>
 			</div>
 		</form>
